@@ -1,0 +1,70 @@
+@import "Layout/_header";
+@import "Layout/_base";
+@import "Pages/_contact";
+@import "Layout/_slider";
+body{
+	padding-top:80px;
+	font-family:"Raleway";
+}
+.pagi{
+	ul{
+		 text-align: center;
+		li{
+    		display: inline-block;
+    		position: relative;
+    		margin: 12px;
+		}
+	}
+	a{
+    	color:#808080;
+    	font-family: arial;
+	}
+}
+.clients{
+	background-image: url("../images/client-bg.jpg");
+	background-repeat: none;
+ 	background-position: 7%;
+    background-size: cover;
+	width:100%;
+	padding: 105px;
+	img{
+		width: 100%;
+	}
+}
+.clothing{
+	.bordes{
+		width: 200px;
+	    height: 200px;
+	    margin: auto;
+	    padding: 2%;
+	    background-color: white;
+	    border: 1px solid #CECECE;
+	    img{
+	    	width: 190px;
+	    	height: 190px;
+	    }
+	}
+}
+.blog{
+	img{
+		width:100%;
+	}
+}
+.order{
+	padding-bottom:40px;
+	.box{
+		line-height:0.8;
+		h5{
+			margin-left: 55px;
+		}
+		i{
+	    	font-size: 25px;
+	    	position: relative;
+	    	top: 33px;
+	    	left: 15px;
+		}
+		small{
+			 margin-left: 62px;
+		}
+	}
+}

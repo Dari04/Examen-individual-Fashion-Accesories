@@ -1,0 +1,115 @@
+doctype
+html
+  head
+    title Fashion Accesosries
+    meta( charset='utf-8')
+    meta( name='description', content='Baking Bootstrap Snippets with Jade' )
+    meta( http-equiv='X-UA-Compatible', content='IE=edge' )
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="icon" type="image/png" href="http://venezuela.bienesonline.com/img/sobre.png")
+    link(rel="stylesheet" href="assets/css/bootstrap.min.css")
+    link(rel="stylesheet" href="assets/css/bootstrap.css")
+    link(rel="stylesheet" href="assets/css/main.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+    link(rel="stylesheet" href='https://fonts.googleapis.com/css?family=Raleway' type='text/css')
+
+
+ body
+    mixin carrusel
+        h1.titulo AUTUMN/WINTER LOOKBOOK
+        p.texto 2016 COLLECTION
+    mixin foto1
+        img.photo(src="assets/images/a1.jpg")
+    mixin foto2
+        img.photo(src="assets/images/b1.jpg")
+    mixin foto3
+        img.photo(src="assets/images/c1.jpg")
+    mixin foto4
+        img.photo(src="assets/images/d1.jpg")
+    mixin imagen1
+        img(src="assets/images/a2.jpg")
+    mixin imagen2
+        img(src="assets/images/d2.jpg")
+    mixin imagen3
+        img(src="assets/images/g2.jpg")
+    mixin imagen4
+        img(src="assets/images/c2.jpg")
+    mixin imagen5
+        img(src="assets/images/cart-1.jpg")
+    mixin imagen6
+        img(src="assets/images/e1.jpg")
+    mixin deliver
+        h6 Deliver Wide
+    mixin estrellas
+        i.fa.fa-star
+        i.fa.fa-star
+        i.fa.fa-star
+        i.fa.fa-star-o
+        i.fa.fa-star-o
+    mixin precio1
+        small $242.00
+        small $218.00
+    mixin precio2
+        small $218.00
+    mixin coffe
+        img(src="assets/images/blog2.jpg")
+    mixin escritura
+        h5 THE SAMPLE HEADING TITLE
+        small 21/11/2015
+        p Lorem ipsum dolor sit amet,consectetur adipisic ing elit,sed,do...
+        small Read more...
+    header
+            nav.navbar.navbar-default.navbar-fixed-top
+                .container
+                    .navbar-header
+                        button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar")
+                            span.sr-only Toggle Navigation
+                            span.icon-bar
+                            .span.icon-bar
+                            span.icon-bar
+                        a.navbar-brand(href="#") Default Welcome Msg!
+                    #navbar.navbar-collapse.collapse
+                        ul.nav.navbar-nav.nav-before 
+                            li
+                              a(href="#") Language
+                            li
+                              a(href="#") $Currrency
+                            li
+                              a(href='#')
+                                i.fa.fa-user
+                                | My Account
+
+    section.opening
+        .container
+            .row
+                .col-md-4
+                    i.fa.fa-clock-o
+                    h4 OPENING TIME
+                    small 9:00AM -10:00PM
+                .col-md-4
+                    img(src="assets/images/logo.png")
+                .col-md-4
+                .buscador
+                  form
+                    input.search(type='buscar', placeholder='Search')
+                    i.fa.fa-search
+    section.navegacion
+        nav.navbar.navbar-default
+                .container
+                    .navbar-header
+                        ul.nav.navbar-nav.nav-before 
+                            li
+                                a(href="#") HOME
+                            li
+                                a(href="#") CONTACT US
+                    #navbar.navbar-collapse.collapse
+                        a.navbar-brand.navbar-right(href="#") My Cart
+    section.fondo
+
+
+
+
+        
+script(src="js/jquery.js")
+script(src="js/bootstrap.min.js")
+script(src="js/cbpAnimated.js")
